@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="calculator-body">
+        <div id="text"><h1></h1><hr><p id="equation"></p></div>
+        <section id="buttons-container">
+            <div id="numbers-container">
+                <button class="number" value="7">7</button>
+                <button class="number" value="8">8</button>
+                <button class="number" value="9">9</button>
+                <button class="number" value="4">4</button>
+                <button class="number" value="5">5</button>
+                <button class="number" value="6">6</button>
+                <button class="number" value="1">1</button>
+                <button class="number" value="2">2</button>
+                <button class="number" value="3">3</button>
+                <button id="delete">C</button>
+                <button class="number" value="0" id="0">0</button>
+                <button id="point" value=".">.</button>
+            </div>
+            <div id="operators-container">
+                <button class="operator top" id="change-signs">+/-</button>
+                <button class="operator top" id="delete-one">→</button>
+                <button class="operator average math" id="multiply" value="×">×</button>
+                <button class="operator average math" id="divide" value="÷">÷</button>
+                <div id="addsubtract">
+                    <button class="operator average math" id="subtract" value="-">-</button>
+                    <button class="operator average math" id="add" value="+">+</button>
+                </div>
+                <button id="equals">=</button>
+            </div>
+        </section>
+    </div>
+
+    <p>Recreation of the calculator found <a href="https://calculator-1.com/simple/" target="_blank">here.</a> By: Nicholas Levine</p>
+    
+</body>
+</html>
